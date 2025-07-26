@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Header from '@/app/Header';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,7 +7,6 @@ export default function Home() {
       <Head>
         <title>The Diegos</title>
       </Head>
-      <Header />
       <main className="max-w-3xl mx-auto py-12 px-6 space-y-12">
         <section className="space-y-4">
           <Image

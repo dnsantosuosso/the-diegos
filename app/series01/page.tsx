@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Header from '@/app/Header';
 import Image from 'next/image';
 
 export default function Issue() {
@@ -8,7 +7,6 @@ export default function Issue() {
       <Head>
         <title>Wet Market Series 001</title>
       </Head>
-      <Header />
       <main className="max-w-3xl mx-auto py-12 px-6 space-y-8">
         <article className="space-y-6">
           <Image
