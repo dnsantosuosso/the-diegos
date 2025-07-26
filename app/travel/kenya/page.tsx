@@ -16,6 +16,7 @@ export default function Kenya() {
               alt="Kenya landscape"
               fill
               className="object-cover"
+              priority
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
               <div className="text-center text-white">
@@ -77,12 +78,13 @@ export default function Kenya() {
                     className="object-cover"
                   />
                 </div>
-                <div className="relative h-64 rounded-lg overflow-hidden">
+                <div className="h-64 rounded-lg overflow-hidden">
                   <Image
                     src="/img03.jpg"
                     alt="Kenya landscape"
-                    fill
-                    className="object-cover"
+                    width={400}
+                    height={256}
+                    className="object-cover w-full h-full"
                   />
                 </div>
               </div>

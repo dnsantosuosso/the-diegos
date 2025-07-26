@@ -47,13 +47,6 @@ export default function Header() {
                 >
                   Photo Collage
                 </Link>
-                <Link
-                  href="/series01"
-                  className="block px-4 py-2 hover:bg-gray-50 transition-colors"
-                  onClick={handleDropdownClose}
-                >
-                  Wet Market Series
-                </Link>
               </div>
             </>
           )}
@@ -84,21 +77,7 @@ export default function Header() {
                     className="block px-4 py-2 hover:bg-gray-50 transition-colors"
                     onClick={handleDropdownClose}
                   >
-                    Kenya Adventures
-                  </Link>
-                  <Link
-                    href="/travel/tanzania"
-                    className="block px-4 py-2 hover:bg-gray-50 transition-colors"
-                    onClick={handleDropdownClose}
-                  >
-                    Tanzania Safari
-                  </Link>
-                  <Link
-                    href="/travel/morocco"
-                    className="block px-4 py-2 hover:bg-gray-50 transition-colors"
-                    onClick={handleDropdownClose}
-                  >
-                    Morocco Journey
+                    Kenya
                   </Link>
                   <hr className="my-2" />
                   <h3 className="font-semibold text-gray-800 px-2 py-1">
@@ -109,14 +88,14 @@ export default function Header() {
                     className="block px-4 py-2 hover:bg-gray-50 transition-colors"
                     onClick={handleDropdownClose}
                   >
-                    Thailand Markets
+                    Thailand
                   </Link>
                   <Link
                     href="/travel/vietnam"
                     className="block px-4 py-2 hover:bg-gray-50 transition-colors"
                     onClick={handleDropdownClose}
                   >
-                    Vietnam Streets
+                    Vietnam
                   </Link>
                 </div>
               </div>
